@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.55f62c7c.chunk.css",
-    "main.js": "/static/js/main.a954912e.chunk.js",
-    "main.js.map": "/static/js/main.a954912e.chunk.js.map",
+    "main.css": "/static/css/main.d304831c.chunk.css",
+    "main.js": "/static/js/main.425759b0.chunk.js",
+    "main.js.map": "/static/js/main.425759b0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.c622eac2.chunk.js": "/static/js/2.c622eac2.chunk.js",
-    "static/js/2.c622eac2.chunk.js.map": "/static/js/2.c622eac2.chunk.js.map",
+    "static/js/2.9cef8d66.chunk.js": "/static/js/2.9cef8d66.chunk.js",
+    "static/js/2.9cef8d66.chunk.js.map": "/static/js/2.9cef8d66.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.667e5d7b9e5a3e7a38d17bb3e416d0df.js": "/precache-manifest.667e5d7b9e5a3e7a38d17bb3e416d0df.js",
+    "precache-manifest.9a4a5d8c0c692a728878d71d452e98a6.js": "/precache-manifest.9a4a5d8c0c692a728878d71d452e98a6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.55f62c7c.chunk.css.map": "/static/css/main.55f62c7c.chunk.css.map",
-    "static/js/2.c622eac2.chunk.js.LICENSE.txt": "/static/js/2.c622eac2.chunk.js.LICENSE.txt",
+    "static/css/main.d304831c.chunk.css.map": "/static/css/main.d304831c.chunk.css.map",
+    "static/js/2.9cef8d66.chunk.js.LICENSE.txt": "/static/js/2.9cef8d66.chunk.js.LICENSE.txt",
     "static/media/avatar.jpg": "/static/media/avatar.a42176f4.jpg",
     "static/media/App.css": "/static/media/cover.d5e8d93c.jpg",
-    "static/media/hamrojourney.png": "/static/media/hamrojourney.2e55252b.png",
-    "static/media/himalayanresort.png": "/static/media/himalayanresort.f6a13257.png",
-    "static/media/quizbee.png": "/static/media/quizbee.60a10a93.png",
+    "static/media/hamrojourney.png": "/static/media/hamrojourney.23fb6110.png",
+    "static/media/himalayanresort.png": "/static/media/himalayanresort.29a7b106.png",
+    "static/media/quizbee.png": "/static/media/quizbee.b34977b6.png",
+    "static/media/resume.pdf": "/static/media/resume.f3dfe663.pdf",
     "static/media/rms.png": "/static/media/rms.86885b54.png",
-    "static/media/thumb.png": "/static/media/thumb.be5e8be4.png"
+    "static/media/simple_portfolio.png": "/static/media/simple_portfolio.7ebadcf6.png",
+    "static/media/thumb.png": "/static/media/thumb.be5e8be4.png",
+    "static/media/youtube-clone.png": "/static/media/youtube-clone.f4940144.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.c622eac2.chunk.js",
-    "static/css/main.55f62c7c.chunk.css",
-    "static/js/main.a954912e.chunk.js"
+    "static/js/2.9cef8d66.chunk.js",
+    "static/css/main.d304831c.chunk.css",
+    "static/js/main.425759b0.chunk.js"
   ]
 }

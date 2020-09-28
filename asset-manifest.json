@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d304831c.chunk.css",
-    "main.js": "/static/js/main.b18bcb5e.chunk.js",
-    "main.js.map": "/static/js/main.b18bcb5e.chunk.js.map",
+    "main.css": "/static/css/main.6aa7d645.chunk.css",
+    "main.js": "/static/js/main.62e36513.chunk.js",
+    "main.js.map": "/static/js/main.62e36513.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.54763b12.chunk.js": "/static/js/2.54763b12.chunk.js",
-    "static/js/2.54763b12.chunk.js.map": "/static/js/2.54763b12.chunk.js.map",
+    "static/js/2.c51dd1df.chunk.js": "/static/js/2.c51dd1df.chunk.js",
+    "static/js/2.c51dd1df.chunk.js.map": "/static/js/2.c51dd1df.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.245b3f5d9d97cc0570fd1d43cfd8994f.js": "/precache-manifest.245b3f5d9d97cc0570fd1d43cfd8994f.js",
+    "precache-manifest.b3e383110eb1b552481e95c8fafb4740.js": "/precache-manifest.b3e383110eb1b552481e95c8fafb4740.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d304831c.chunk.css.map": "/static/css/main.d304831c.chunk.css.map",
-    "static/js/2.54763b12.chunk.js.LICENSE.txt": "/static/js/2.54763b12.chunk.js.LICENSE.txt",
+    "static/css/main.6aa7d645.chunk.css.map": "/static/css/main.6aa7d645.chunk.css.map",
+    "static/js/2.c51dd1df.chunk.js.LICENSE.txt": "/static/js/2.c51dd1df.chunk.js.LICENSE.txt",
     "static/media/avatar.jpg": "/static/media/avatar.a42176f4.jpg",
     "static/media/coolors.png": "/static/media/coolors.730804f4.png",
     "static/media/App.css": "/static/media/cover.d5e8d93c.jpg",
     "static/media/hamrojourney.png": "/static/media/hamrojourney.23fb6110.png",
     "static/media/himalayanresort.png": "/static/media/himalayanresort.29a7b106.png",
+    "static/media/landing_page_template.png": "/static/media/landing_page_template.94f80a85.png",
     "static/media/quizbee.png": "/static/media/quizbee.b34977b6.png",
     "static/media/resume.pdf": "/static/media/resume.f3dfe663.pdf",
     "static/media/rms.png": "/static/media/rms.86885b54.png",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.54763b12.chunk.js",
-    "static/css/main.d304831c.chunk.css",
-    "static/js/main.b18bcb5e.chunk.js"
+    "static/js/2.c51dd1df.chunk.js",
+    "static/css/main.6aa7d645.chunk.css",
+    "static/js/main.62e36513.chunk.js"
   ]
 }

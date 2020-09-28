@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "122e8d18b76a8796c89cd9df52ec4f37",
+    "revision": "34462146d1455a4acbcc4ea4c771243b",
     "url": "/index.html"
   },
   {
-    "revision": "ad1f56ef0e6bda9af6ac",
-    "url": "/static/css/main.d304831c.chunk.css"
+    "revision": "700dd45decdb32fa0b21",
+    "url": "/static/css/main.6aa7d645.chunk.css"
   },
   {
-    "revision": "3cafe85514eb6668b305",
-    "url": "/static/js/2.54763b12.chunk.js"
+    "revision": "fb5ed36a3e70ed1db4fe",
+    "url": "/static/js/2.c51dd1df.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.54763b12.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c51dd1df.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad1f56ef0e6bda9af6ac",
-    "url": "/static/js/main.b18bcb5e.chunk.js"
+    "revision": "700dd45decdb32fa0b21",
+    "url": "/static/js/main.62e36513.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "29a7b10641c412926dd3c322c57819ed",
     "url": "/static/media/himalayanresort.29a7b106.png"
+  },
+  {
+    "revision": "94f80a85ad43289644fefa6806bebbbc",
+    "url": "/static/media/landing_page_template.94f80a85.png"
   },
   {
     "revision": "b34977b6a390de2a2f04e112b85b48d5",

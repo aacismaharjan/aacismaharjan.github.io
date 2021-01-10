@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.ef30775c.chunk.css",
-    "main.js": "/static/js/main.5231269b.chunk.js",
-    "main.js.map": "/static/js/main.5231269b.chunk.js.map",
+    "main.js": "/static/js/main.71349e4b.chunk.js",
+    "main.js.map": "/static/js/main.71349e4b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.488f0ad5.chunk.css": "/static/css/2.488f0ad5.chunk.css",
-    "static/js/2.93c521ba.chunk.js": "/static/js/2.93c521ba.chunk.js",
-    "static/js/2.93c521ba.chunk.js.map": "/static/js/2.93c521ba.chunk.js.map",
+    "static/js/2.a2a41cb0.chunk.js": "/static/js/2.a2a41cb0.chunk.js",
+    "static/js/2.a2a41cb0.chunk.js.map": "/static/js/2.a2a41cb0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6b4028c70405e83619c41e87d5544997.js": "/precache-manifest.6b4028c70405e83619c41e87d5544997.js",
+    "precache-manifest.ef1eb043cf08d358bb7174d381754e77.js": "/precache-manifest.ef1eb043cf08d358bb7174d381754e77.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.488f0ad5.chunk.css.map": "/static/css/2.488f0ad5.chunk.css.map",
     "static/css/main.ef30775c.chunk.css.map": "/static/css/main.ef30775c.chunk.css.map",
-    "static/js/2.93c521ba.chunk.js.LICENSE.txt": "/static/js/2.93c521ba.chunk.js.LICENSE.txt",
+    "static/js/2.a2a41cb0.chunk.js.LICENSE.txt": "/static/js/2.a2a41cb0.chunk.js.LICENSE.txt",
     "static/media/aacismaharjan-loading-logo.svg": "/static/media/aacismaharjan-loading-logo.90612ea9.svg",
+    "static/media/app-landingpage.png": "/static/media/app-landingpage.b65312c8.png",
     "static/media/avatar.jpg": "/static/media/avatar.252219c3.jpg",
     "static/media/coolors.jpg": "/static/media/coolors.432d7724.jpg",
     "static/media/coronatracker.jpg": "/static/media/coronatracker.90eaa978.jpg",
@@ -22,6 +23,8 @@
     "static/media/github_user_stats.jpg": "/static/media/github_user_stats.07efa94c.jpg",
     "static/media/hamrojourney.jpg": "/static/media/hamrojourney.53afe366.jpg",
     "static/media/himalayanresort.jpg": "/static/media/himalayanresort.06356778.jpg",
+    "static/media/landing_page_template.jpg": "/static/media/landing_page_template.0bbcde6d.jpg",
+    "static/media/mern-twitter-clone.png": "/static/media/mern-twitter-clone.156371b9.png",
     "static/media/quizbee.jpg": "/static/media/quizbee.288825a4.jpg",
     "static/media/react-redux-rest.png": "/static/media/react-redux-rest.61324486.png",
     "static/media/resume.pdf": "/static/media/resume.02d0dc01.pdf",
@@ -32,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.488f0ad5.chunk.css",
-    "static/js/2.93c521ba.chunk.js",
+    "static/js/2.a2a41cb0.chunk.js",
     "static/css/main.ef30775c.chunk.css",
-    "static/js/main.5231269b.chunk.js"
+    "static/js/main.71349e4b.chunk.js"
   ]
 }

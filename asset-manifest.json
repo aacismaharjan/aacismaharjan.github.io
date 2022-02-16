@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe8339e0.chunk.css",
-    "main.js": "/static/js/main.6a9e2b33.chunk.js",
-    "main.js.map": "/static/js/main.6a9e2b33.chunk.js.map",
+    "main.css": "/static/css/main.a779f4f8.chunk.css",
+    "main.js": "/static/js/main.06d076f5.chunk.js",
+    "main.js.map": "/static/js/main.06d076f5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.488f0ad5.chunk.css": "/static/css/2.488f0ad5.chunk.css",
-    "static/js/2.8cf8ec69.chunk.js": "/static/js/2.8cf8ec69.chunk.js",
-    "static/js/2.8cf8ec69.chunk.js.map": "/static/js/2.8cf8ec69.chunk.js.map",
+    "static/js/2.eccc5b73.chunk.js": "/static/js/2.eccc5b73.chunk.js",
+    "static/js/2.eccc5b73.chunk.js.map": "/static/js/2.eccc5b73.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f794bfe456d0e1a06ccdc892d6afe921.js": "/precache-manifest.f794bfe456d0e1a06ccdc892d6afe921.js",
+    "precache-manifest.9e6b2732d980bd4e24c705c9a10c2ed3.js": "/precache-manifest.9e6b2732d980bd4e24c705c9a10c2ed3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.488f0ad5.chunk.css.map": "/static/css/2.488f0ad5.chunk.css.map",
-    "static/css/main.fe8339e0.chunk.css.map": "/static/css/main.fe8339e0.chunk.css.map",
-    "static/js/2.8cf8ec69.chunk.js.LICENSE.txt": "/static/js/2.8cf8ec69.chunk.js.LICENSE.txt",
+    "static/css/main.a779f4f8.chunk.css.map": "/static/css/main.a779f4f8.chunk.css.map",
+    "static/js/2.eccc5b73.chunk.js.LICENSE.txt": "/static/js/2.eccc5b73.chunk.js.LICENSE.txt",
     "static/media/aacismaharjan-loading-logo.svg": "/static/media/aacismaharjan-loading-logo.90612ea9.svg",
     "static/media/app-landingpage.png": "/static/media/app-landingpage.b65312c8.png",
     "static/media/avatar.jpg": "/static/media/avatar.252219c3.jpg",
+    "static/media/basic-netflix.png": "/static/media/basic-netflix.505afac3.png",
     "static/media/coolors.jpg": "/static/media/coolors.432d7724.jpg",
     "static/media/coronatracker.jpg": "/static/media/coronatracker.90eaa978.jpg",
     "static/media/getwatch.jpg": "/static/media/getwatch.459985af.jpg",
@@ -36,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.488f0ad5.chunk.css",
-    "static/js/2.8cf8ec69.chunk.js",
-    "static/css/main.fe8339e0.chunk.css",
-    "static/js/main.6a9e2b33.chunk.js"
+    "static/js/2.eccc5b73.chunk.js",
+    "static/css/main.a779f4f8.chunk.css",
+    "static/js/main.06d076f5.chunk.js"
   ]
 }

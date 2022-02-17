@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a779f4f8.chunk.css",
-    "main.js": "/static/js/main.290bf7db.chunk.js",
-    "main.js.map": "/static/js/main.290bf7db.chunk.js.map",
+    "main.js": "/static/js/main.63bd15ad.chunk.js",
+    "main.js.map": "/static/js/main.63bd15ad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.488f0ad5.chunk.css": "/static/css/2.488f0ad5.chunk.css",
-    "static/js/2.eccc5b73.chunk.js": "/static/js/2.eccc5b73.chunk.js",
-    "static/js/2.eccc5b73.chunk.js.map": "/static/js/2.eccc5b73.chunk.js.map",
+    "static/js/2.0d7d319c.chunk.js": "/static/js/2.0d7d319c.chunk.js",
+    "static/js/2.0d7d319c.chunk.js.map": "/static/js/2.0d7d319c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5f0b094ce31f4b6880c84fbcb00bc0da.js": "/precache-manifest.5f0b094ce31f4b6880c84fbcb00bc0da.js",
+    "precache-manifest.a51088e86d4296ac59a37ce8827bf467.js": "/precache-manifest.a51088e86d4296ac59a37ce8827bf467.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.488f0ad5.chunk.css.map": "/static/css/2.488f0ad5.chunk.css.map",
     "static/css/main.a779f4f8.chunk.css.map": "/static/css/main.a779f4f8.chunk.css.map",
-    "static/js/2.eccc5b73.chunk.js.LICENSE.txt": "/static/js/2.eccc5b73.chunk.js.LICENSE.txt",
+    "static/js/2.0d7d319c.chunk.js.LICENSE.txt": "/static/js/2.0d7d319c.chunk.js.LICENSE.txt",
     "static/media/aacismaharjan-loading-logo.svg": "/static/media/aacismaharjan-loading-logo.90612ea9.svg",
     "static/media/app-landingpage.png": "/static/media/app-landingpage.b65312c8.png",
     "static/media/avatar.jpg": "/static/media/avatar.252219c3.jpg",
@@ -32,13 +32,14 @@
     "static/media/resume.pdf": "/static/media/resume.02d0dc01.pdf",
     "static/media/rms.jpg": "/static/media/rms.f27da5af.jpg",
     "static/media/simple_portfolio.jpg": "/static/media/simple_portfolio.269d81a2.jpg",
+    "static/media/typing-test.png": "/static/media/typing-test.65fb7dba.png",
     "static/media/youtube-clone.jpg": "/static/media/youtube-clone.221a9893.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.488f0ad5.chunk.css",
-    "static/js/2.eccc5b73.chunk.js",
+    "static/js/2.0d7d319c.chunk.js",
     "static/css/main.a779f4f8.chunk.css",
-    "static/js/main.290bf7db.chunk.js"
+    "static/js/main.63bd15ad.chunk.js"
   ]
 }

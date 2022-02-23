@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a779f4f8.chunk.css",
-    "main.js": "/static/js/main.63bd15ad.chunk.js",
-    "main.js.map": "/static/js/main.63bd15ad.chunk.js.map",
+    "main.js": "/static/js/main.ca424a22.chunk.js",
+    "main.js.map": "/static/js/main.ca424a22.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.488f0ad5.chunk.css": "/static/css/2.488f0ad5.chunk.css",
-    "static/js/2.0d7d319c.chunk.js": "/static/js/2.0d7d319c.chunk.js",
-    "static/js/2.0d7d319c.chunk.js.map": "/static/js/2.0d7d319c.chunk.js.map",
+    "static/js/2.25c0fbd4.chunk.js": "/static/js/2.25c0fbd4.chunk.js",
+    "static/js/2.25c0fbd4.chunk.js.map": "/static/js/2.25c0fbd4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a51088e86d4296ac59a37ce8827bf467.js": "/precache-manifest.a51088e86d4296ac59a37ce8827bf467.js",
+    "precache-manifest.6dcfef6ffe06506866cf727b1e674195.js": "/precache-manifest.6dcfef6ffe06506866cf727b1e674195.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.488f0ad5.chunk.css.map": "/static/css/2.488f0ad5.chunk.css.map",
     "static/css/main.a779f4f8.chunk.css.map": "/static/css/main.a779f4f8.chunk.css.map",
-    "static/js/2.0d7d319c.chunk.js.LICENSE.txt": "/static/js/2.0d7d319c.chunk.js.LICENSE.txt",
+    "static/js/2.25c0fbd4.chunk.js.LICENSE.txt": "/static/js/2.25c0fbd4.chunk.js.LICENSE.txt",
     "static/media/aacismaharjan-loading-logo.svg": "/static/media/aacismaharjan-loading-logo.90612ea9.svg",
     "static/media/app-landingpage.png": "/static/media/app-landingpage.b65312c8.png",
     "static/media/avatar.jpg": "/static/media/avatar.252219c3.jpg",
@@ -24,6 +24,7 @@
     "static/media/github_user_stats.jpg": "/static/media/github_user_stats.07efa94c.jpg",
     "static/media/hamrojourney.jpg": "/static/media/hamrojourney.53afe366.jpg",
     "static/media/himalayanresort.jpg": "/static/media/himalayanresort.06356778.jpg",
+    "static/media/instagram-clone.png": "/static/media/instagram-clone.8240b534.png",
     "static/media/landing_page_template.jpg": "/static/media/landing_page_template.0bbcde6d.jpg",
     "static/media/mern-twitter-clone.png": "/static/media/mern-twitter-clone.156371b9.png",
     "static/media/netflix-clone.png": "/static/media/netflix-clone.8a88294f.png",
@@ -38,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.488f0ad5.chunk.css",
-    "static/js/2.0d7d319c.chunk.js",
+    "static/js/2.25c0fbd4.chunk.js",
     "static/css/main.a779f4f8.chunk.css",
-    "static/js/main.63bd15ad.chunk.js"
+    "static/js/main.ca424a22.chunk.js"
   ]
 }

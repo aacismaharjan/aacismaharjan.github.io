@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Aashish Maharjan - Frontend React Developer who loves javascript and modern web technologies."
+    />
+    <meta name="author" content="Aashish Maharjan" />
+    <title>Aashish Maharjan - A Frontend React Developer</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <script>
+      function computeDarkTheme(isEnable) {
+        if (isEnable) {
+          document.body.classList.add("theme-dark");
+          document.querySelector("#theme-img").src = "./pic_bulboff.gif";
+          localStorage.setItem("theme", "dark");
+        } else {
+          document.body.classList.remove("theme-dark");
+          document.querySelector("#theme-img").src = "./pic_bulbon.gif";
+          localStorage.setItem("theme", "light");
+        }
+      }
+
+      window.onload = () => {
+        let theme = localStorage.getItem("theme");
+        let time = new Date().getHours();
+
+        if (theme === "light") {
+          computeDarkTheme(false);
+        } else if ((theme == null && time >= 18) || time <= 5) {
+          computeDarkTheme(true);
+        } else {
+          computeDarkTheme(true);
+        }
+      };
+    </script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="root"></div>
+  </body>
+</html>

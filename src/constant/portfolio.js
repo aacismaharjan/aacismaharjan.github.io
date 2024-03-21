@@ -44,8 +44,8 @@ const portfolios =  [
     img: EpasaleThumb,
     title: 'Epasale - Food Order & Delivery System',
     desc: 'Epasale is a food ordering and delivery platforms that has actors such as customers, sellers, delivery person and admins with their own portals.',
-    demo: 'https://github.com/aacismaharjan/epasale',
-    source: 'https://www.youtube.com/watch?v=pUuSToNIDuU',
+    demo: 'https://www.youtube.com/watch?v=pUuSToNIDuU',
+    source: 'https://github.com/aacismaharjan/epasale',
   },
   {
     img: NatoursThumb,

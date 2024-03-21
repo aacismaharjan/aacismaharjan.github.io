@@ -1,3 +1,12 @@
+# Personal Portfolio Website 
+This personal portfolio website is created using React.js. Developed by Aashish Maharjan. 
+
+
+[Visit Linkedin](https://www.linkedin.com/in/aacismaharjan/)
+
+![Website Screenshot](./Screenshot.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

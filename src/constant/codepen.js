@@ -1,1 +1,3 @@
-export default ['MWyMjqR', 'MWydyoe', 'qBavwva'];
+const codepen =  ['MWyMjqR', 'MWydyoe', 'qBavwva'];
+
+export default codepen;

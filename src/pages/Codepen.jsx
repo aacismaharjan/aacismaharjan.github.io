@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
-import { connect } from 'react-redux'
 import Section from '../components/Section'
 import loadingGif from '../assets/aacismaharjan-loading-logo.svg'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
+import codepens from "../constant/codepen";
 
 const CodepenCard = ({ id }) => {
   const [isLoading, setIsLoading] = useState(true)
@@ -47,7 +47,7 @@ const CodepenCard = ({ id }) => {
   )
 }
 
-const Codepen = ({ codepens }) => {
+const Codepen = () => {
   const [items, setItems] = useState([])
   const [currentShow, setCurrentShow] = useState(0);
 
@@ -55,7 +55,7 @@ const Codepen = ({ codepens }) => {
   useEffect(() => {
     setItems(codepens);
     setCurrentShow(Math.floor(Math.random() * codepens.length))
-  }, [codepens])
+  }, [])
 
   const handlePrevClick = () => {
     if (currentShow > 0) {
@@ -80,10 +80,6 @@ const Codepen = ({ codepens }) => {
       }
     }
   }
-
-  console.log(items);
-  console.log(items[currentShow])
-  console.log(currentShow)
 
   return (
     <Section id='codepen' title='Codepen'>
@@ -111,9 +107,4 @@ const Codepen = ({ codepens }) => {
   )
 }
 
-const mapStateToProps = (store) => {
-  const { codepens } = store.codepen
-  return { codepens }
-}
-
-export default connect(mapStateToProps)(Codepen)
+export default Codepen

@@ -19,6 +19,7 @@ import InstagramCloneThumb from '../assets/portfolio/instagram-clone-min.png';
 import NatoursThumb from "../assets/portfolio/natours.png";
 import HangmanThumb from "../assets/portfolio/hangman.png";
 import SnakeLadderThumb from "../assets/portfolio/snake-ladder-in-web.png";
+import EpasaleThumb from "../assets/portfolio/epasale.png";
 
 class Portfolio {
   constructor(img, title, desc, demo, source) {
@@ -30,7 +31,7 @@ class Portfolio {
   }
 }
 
-export default [
+const portfolios =  [
   // {
   //   img: MernTwitterCloneThumb,
   //   title: "Simple Twitter CRUD - MERN Stack",
@@ -39,6 +40,13 @@ export default [
   //   demo: "https://mern-twitter-crud.herokuapp.com/",
   //   source: "https://mern-twitter-crud.herokuapp.com/",
   // },
+  {
+    img: EpasaleThumb,
+    title: 'Epasale - Food Order & Delivery System',
+    desc: 'Epasale is a food ordering and delivery platforms that has actors such as customers, sellers, delivery person and admins with their own portals.',
+    demo: 'https://github.com/aacismaharjan/epasale',
+    source: 'https://www.youtube.com/watch?v=pUuSToNIDuU',
+  },
   {
     img: NatoursThumb,
     title: 'Natours - Tour Booking App',
@@ -186,3 +194,5 @@ export default [
     source: 'https://github.com/aacismaharjan/result-management-system-in-c',
   },
 ];
+
+export default portfolios;

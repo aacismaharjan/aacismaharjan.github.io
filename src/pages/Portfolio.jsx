@@ -2,15 +2,15 @@ import React, { useEffect } from "react"
 import Section from "../components/Section"
 import Card from "../components/Card"
 import { useState } from "react"
-import { connect } from "react-redux"
+import portfolios from "../constant/portfolio";
 
-const Portfolio = ({ portfolios }) => {
+const Portfolio = () => {
   const [count, setCount] = useState(9)
   const [items, setItems] = useState([])
 
   useEffect(() => {
     setItems(portfolios.slice(0, count))
-  }, [count, portfolios])
+  }, [count])
 
   return (
     <Section id="portfolio" title="Major Open Source Projects">
@@ -32,9 +32,4 @@ const Portfolio = ({ portfolios }) => {
   )
 }
 
-const mapStateToProps = (store) => {
-  const { portfolios } = store.portfolio
-  return { portfolios }
-}
-
-export default connect(mapStateToProps)(Portfolio)
+export default Portfolio;

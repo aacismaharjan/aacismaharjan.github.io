@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.4b18bbd0.css",
-    "main.js": "/static/js/main.fe1beef1.js",
-    "static/media/snake-ladder-in-web.png": "/static/media/snake-ladder-in-web.2f933c2b4f01d642db0b.png",
-    "static/media/epasale.png": "/static/media/epasale.b8c8683cc87f9c5e5a3b.png",
-    "static/media/app-landingpage-min.png": "/static/media/app-landingpage-min.5f0da347a046c6523ffb.png",
-    "static/media/natours.png": "/static/media/natours.4def48a553ee55fa3d0b.png",
-    "static/media/basic-netflix-min.png": "/static/media/basic-netflix-min.66d6bd4fc457288eabb1.png",
-    "static/media/youtube-clone-min.png": "/static/media/youtube-clone-min.259efb42513fc9d5378c.png",
-    "static/media/getwatch-min.png": "/static/media/getwatch-min.a1984e3f490a67779bb7.png",
-    "static/media/netflix-clone-min.png": "/static/media/netflix-clone-min.3c628d59571a5536a0bf.png",
-    "static/media/landing_page_template-min.png": "/static/media/landing_page_template-min.53ecfe7ab8750b0df6f6.png",
-    "static/media/hamrojourney-min.png": "/static/media/hamrojourney-min.c0d86a3a368ab70dd8bf.png",
-    "static/media/simple_portfolio-min.png": "/static/media/simple_portfolio-min.047a98e8aa058f1afee4.png",
-    "static/media/himalayanresort-min.png": "/static/media/himalayanresort-min.159eb919fe0b50fa3d9f.png",
-    "static/media/instagram-clone-min.png": "/static/media/instagram-clone-min.7f8d3afc80d6458720c5.png",
+    "main.js": "/static/js/main.64a71859.js",
+    "static/media/getwatch-min.png": "/static/media/getwatch-min.9d3ee3e41d5ceae0efbf.png",
+    "static/media/landing_page_template-min.png": "/static/media/landing_page_template-min.b00b014337246dcfac06.png",
     "static/media/resume.pdf": "/static/media/resume.1d09dd57682d934c2c46.pdf",
-    "static/media/mern-twitter-clone-min.png": "/static/media/mern-twitter-clone-min.3b26db31019f47840774.png",
-    "static/media/github_user_stats-min.png": "/static/media/github_user_stats-min.f57f03edab67815d5562.png",
+    "static/media/app-landingpage-min.png": "/static/media/app-landingpage-min.7a494efa1726658687b8.png",
+    "static/media/simple_portfolio-min.png": "/static/media/simple_portfolio-min.02f8f06a8b3a4499324e.png",
+    "static/media/youtube-clone-min.png": "/static/media/youtube-clone-min.ee5e801f31de8b637666.png",
+    "static/media/netflix-clone-min.png": "/static/media/netflix-clone-min.02381e207023640ca4dd.png",
+    "static/media/basic-netflix-min.png": "/static/media/basic-netflix-min.14da85f6f85a71492c93.png",
+    "static/media/epasale.png": "/static/media/epasale.1f86b33771f44c613582.png",
+    "static/media/hamrojourney-min.png": "/static/media/hamrojourney-min.d3f96e0867d0cd7d882d.png",
+    "static/media/himalayanresort-min.png": "/static/media/himalayanresort-min.f5440ecc4f225d7886bf.png",
+    "static/media/snake-ladder-in-web.png": "/static/media/snake-ladder-in-web.fb447f0dfa3942c30b04.png",
+    "static/media/instagram-clone-min.png": "/static/media/instagram-clone-min.0517556d8ba39e68fd75.png",
+    "static/media/natours.png": "/static/media/natours.34da758dd2198d041c5e.png",
+    "static/media/github_user_stats-min.png": "/static/media/github_user_stats-min.fdad04e19eddf9da3805.png",
     "static/media/quizbee-min.png": "/static/media/quizbee-min.9d118153f97454909bf4.png",
     "static/media/react-redux-rest-min.png": "/static/media/react-redux-rest-min.a065ab88ef1f48b9ad42.png",
+    "static/media/mern-twitter-clone-min.png": "/static/media/mern-twitter-clone-min.acd42dee33f34304923f.png",
     "static/media/aacismaharjan-loading-logo.svg": "/static/media/aacismaharjan-loading-logo.7bf3f0536bcd1adc1e798a9212fe0aca.svg",
     "static/media/coronatracker-min.png": "/static/media/coronatracker-min.fd4ede3e4ead7e713ead.png",
     "static/media/avatar.jpg": "/static/media/avatar.0b1e745067e707f76e37.jpg",
@@ -29,10 +29,10 @@
     "static/media/hangman.png": "/static/media/hangman.9855a18c64660d8d03ec.png",
     "index.html": "/index.html",
     "main.4b18bbd0.css.map": "/static/css/main.4b18bbd0.css.map",
-    "main.fe1beef1.js.map": "/static/js/main.fe1beef1.js.map"
+    "main.64a71859.js.map": "/static/js/main.64a71859.js.map"
   },
   "entrypoints": [
     "static/css/main.4b18bbd0.css",
-    "static/js/main.fe1beef1.js"
+    "static/js/main.64a71859.js"
   ]
 }

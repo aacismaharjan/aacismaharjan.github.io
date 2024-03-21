@@ -48,21 +48,13 @@ const CodepenCard = ({ id }) => {
 }
 
 const Codepen = () => {
-  const [items, setItems] = useState([])
   const [currentShow, setCurrentShow] = useState(0);
-
-
-  useEffect(() => {
-    setItems(codepens);
-    setCurrentShow(Math.floor(Math.random() * codepens.length))
-  }, [])
-
   const handlePrevClick = () => {
     if (currentShow > 0) {
       setCurrentShow((currentShow) => currentShow - 1);
     } else {
-      if (items.length > 0) {
-        setCurrentShow(items.length - 1);
+      if (codepens.length > 0) {
+        setCurrentShow(codepens.length - 1);
       } else {
         setCurrentShow(0);
       }
@@ -70,10 +62,10 @@ const Codepen = () => {
   }
 
   const handleNextClick = () => {
-    if (currentShow < items.length - 1) {
+    if (currentShow < codepens.length - 1) {
       setCurrentShow((currentShow) => currentShow + 1);
     } else {
-      if (currentShow >= items.length - 1) {
+      if (currentShow >= codepens.length - 1) {
         setCurrentShow(0);
       } else {
         setCurrentShow(0);
@@ -84,7 +76,7 @@ const Codepen = () => {
   return (
     <Section id='codepen' title='Codepen'>
       <div className='codepen-cards'>
-        <CodepenCard id={items[currentShow]}  />
+        <CodepenCard id={codepens[currentShow]} />
 
         <div className='d-flex justify-content-center'>
           <button

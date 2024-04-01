@@ -59,7 +59,7 @@ const portfolios =  [
     img: NetflixCloneThumb,
     title: 'Netflix Clone - ReactJS',
     desc: "Netflix Clone featuring Netflix's homepage and series / films page with authenticatio by the help of Firebase as backend.",
-    demo: 'https://netflix-clone-aacis.netlify.app/',
+    demo: 'https://soft-florentine-c80ed7.netlify.app/',
     source: 'https://github.com/aacismaharjan/netflix-clone',
   },
   {
@@ -80,8 +80,8 @@ const portfolios =  [
     img: InstagramCloneThumb,
     title: 'Instagram Clone - Quick Photo Sharing App',
     desc: 'Instagram clone using react.js and typescript. Create a post with image url and caption and see feeds, profile etc.',
-    demo: 'https://instagram999.netlify.app/',
-    source: 'https://instagram999.netlify.app/',
+    demo: 'https://glittering-tanuki-5acf1c.netlify.app',
+    source: 'https://glittering-tanuki-5acf1c.netlify.app',
   },
   {
     img: LandingPageTemplateThumb,

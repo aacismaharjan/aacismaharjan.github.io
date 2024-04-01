@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4b18bbd0.css",
-    "main.js": "/static/js/main.64a71859.js",
+    "main.js": "/static/js/main.0b6264b8.js",
     "static/media/getwatch-min.png": "/static/media/getwatch-min.9d3ee3e41d5ceae0efbf.png",
     "static/media/landing_page_template-min.png": "/static/media/landing_page_template-min.b00b014337246dcfac06.png",
     "static/media/resume.pdf": "/static/media/resume.1d09dd57682d934c2c46.pdf",
@@ -29,10 +29,10 @@
     "static/media/hangman.png": "/static/media/hangman.9855a18c64660d8d03ec.png",
     "index.html": "/index.html",
     "main.4b18bbd0.css.map": "/static/css/main.4b18bbd0.css.map",
-    "main.64a71859.js.map": "/static/js/main.64a71859.js.map"
+    "main.0b6264b8.js.map": "/static/js/main.0b6264b8.js.map"
   },
   "entrypoints": [
     "static/css/main.4b18bbd0.css",
-    "static/js/main.64a71859.js"
+    "static/js/main.0b6264b8.js"
   ]
 }

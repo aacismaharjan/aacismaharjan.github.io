@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 370" fill="none">
+  <defs>
+    <linearGradient id="copper" x1="120" y1="120" x2="270" y2="230" gradientUnits="userSpaceOnUse"><stop stop-color="#edb27a"/><stop offset=".48" stop-color="#c98a58"/><stop offset="1" stop-color="#80482f"/></linearGradient>
+    <linearGradient id="base" x1="145" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#d9a06b"/><stop offset="1" stop-color="#79452c"/></linearGradient>
+    <pattern id="tiles" width="46" height="46" patternUnits="userSpaceOnUse"><path fill="#4d443c" d="M0 0h46v46H0z"/><path fill="#6a5b4e" d="M0 0h23v23H0zM23 23h23v23H23z"/></pattern>
+  </defs>
+  <path d="m65 291 135-68 135 68v13l-135 68-135-68z" fill="#252321"/>
+  <path d="m65 291 135-68 135 68-135 68z" fill="url(#tiles)"/>
+  <ellipse cx="206" cy="291" rx="62" ry="23" fill="#0e0906" opacity=".3"/>
+  <path d="M154 274q0-9 12-15l14-23h43l14 23q19 10 19 20v12q-48 26-102 0z" fill="url(#base)" stroke="#865036" stroke-width="2"/>
+  <ellipse cx="205" cy="237" rx="33" ry="10" fill="#d39360"/>
+  <path d="m225 94 16 14 17 27-6 7 14 18-8 7 10 22-9 7 1 22-17 13-16-70z" fill="#483229"/>
+  <path d="M176 231C175 203 200 187 201 166l-11-9-31 9q-14 4-22-12l-3-17 23-11 18-21 11-11 2-31 17 19 15-15 6 30c27 20 35 61 24 95-9 21-9 37-8 38z" fill="url(#copper)" stroke="#ad724b" stroke-width="3" stroke-linejoin="round"/>
+  <path d="m186 94 2-31 9 22M218 82l2-15 6 30M138 137l22-7" stroke="#f1bf8d" stroke-width="2" opacity=".7"/>
+  <circle cx="188" cy="112" r="3.5" fill="#342722"/><circle cx="150" cy="141" r="2" fill="#342722"/>
+  <path d="M165 260q40 18 73 0M155 278q51 25 99 0" stroke="#efbb82" opacity=".45"/>
+</svg>

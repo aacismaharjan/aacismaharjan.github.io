@@ -9,6 +9,13 @@ This personal portfolio website is created using React.js. Developed by Aashish 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+```
+docker build -t react-nginx-app .
+docker run -p 3000:80 react-nginx-app
+```
+
+
 ## Available Scripts
 
 In the project directory, you can run:

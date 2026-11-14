@@ -2,14 +2,9 @@ import CoronaTrackerThumb from '../assets/portfolio/coronatracker-min.png';
 import HamroJourneyThumb from '../assets/portfolio/hamrojourney-min.png';
 import HimalanResortThumb from '../assets/portfolio/himalayanresort-min.png';
 import RMSThumb from '../assets/portfolio/rms-min.png';
-import QuizbeeThumb from '../assets/portfolio/quizbee-min.png';
-import YoutubeCloneThumb from '../assets/portfolio/youtube-clone-min.png';
 import SimplePortfolioThumb from '../assets/portfolio/simple_portfolio-min.png';
 import CoolorsThumb from '../assets/portfolio/coolors-min.png';
-import GetWatchThumb from '../assets/portfolio/getwatch-min.png';
-import ReactReduxRestThumb from '../assets/portfolio/react-redux-rest-min.png';
 import GithubUserStatThumb from '../assets/portfolio/github_user_stats-min.png';
-import MernTwitterCloneThumb from '../assets/portfolio/mern-twitter-clone-min.png';
 import LandingPageTemplateThumb from '../assets/portfolio/landing_page_template-min.png';
 import AppLandingPageThumb from '../assets/portfolio/app-landingpage-min.png';
 import NetflixCloneThumb from '../assets/portfolio/netflix-clone-min.png';
@@ -21,17 +16,17 @@ import HangmanThumb from "../assets/portfolio/hangman.png";
 import SnakeLadderThumb from "../assets/portfolio/snake-ladder-in-web.png";
 import EpasaleThumb from "../assets/portfolio/epasale.png";
 
-class Portfolio {
-  constructor(img, title, desc, demo, source) {
-    this.img = img;
-    this.title = title;
-    this.desc = desc;
-    this.demo = demo;
-    this.source = source;
-  }
-}
-
-const portfolios =  [
+const portfolios = [
+  {
+    title: 'SnapSewa', label: 'Featured / Full-stack platform', accent: 'sewa',
+    desc: 'An on-demand home services marketplace with Next.js and Flutter frontends, role-based Spring Boot APIs, Khalti payments and an AI chat interface using MCP, Ollama and Groq. Deployed with Docker on AWS EC2.',
+    technologies: ['Next.js', 'Flutter', 'Spring Boot', 'MySQL', 'Docker', 'AWS'],
+  },
+  {
+    title: 'QuickCafe', label: 'Featured / Project leadership', accent: 'cafe',
+    desc: 'Led development of a multi-vendor cafeteria platform with ordering, vendor dashboards, menu management, reviews, authentication and eSewa payments. Earned an A grade for the integrated system.',
+    technologies: ['React', 'TypeScript', 'Spring Boot', 'MySQL', 'eSewa'],
+  },
   // {
   //   img: MernTwitterCloneThumb,
   //   title: "Simple Twitter CRUD - MERN Stack",
@@ -43,16 +38,16 @@ const portfolios =  [
   {
     img: EpasaleThumb,
     title: 'Epasale - Food Order & Delivery System',
-    desc: 'Epasale is a food ordering and delivery platforms that has actors such as customers, sellers, delivery person and admins with their own portals.',
+    desc: 'A food ordering and delivery platform with dedicated customer, seller, delivery and admin portals. Built with HTML, CSS, JavaScript, PHP and MySQL.',
     demo: 'https://www.youtube.com/watch?v=pUuSToNIDuU',
     source: 'https://github.com/aacismaharjan/epasale',
   },
   {
     img: NatoursThumb,
     title: 'Natours - Tour Booking App',
-    desc: 'Natours is a platform where you can book your favorite tour. Made with MERN stack and integrated stripe payment',
+    desc: 'A tour booking platform with reviews, maps, JWT authentication and Stripe payments. Built with Node.js, Express and MongoDB.',
     demo: 'https://natours-8o2z.onrender.com/',
-    source: 'https://natours-8o2z.onrender.com/',
+
   },
 
   {

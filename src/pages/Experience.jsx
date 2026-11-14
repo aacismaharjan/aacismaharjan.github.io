@@ -1,72 +1,39 @@
-import React from "react";
-import Section from "../components/Section";
+import React from 'react';
+import Section from '../components/Section';
+import experience from '../constant/experience';
+
+const formatMonth = (value) => {
+  const [year, month] = value.split('-').map(Number);
+  return new Intl.DateTimeFormat('en', { month: 'short', year: 'numeric', timeZone: 'UTC' })
+    .format(new Date(Date.UTC(year, month - 1)));
+};
 
 export default function Experience() {
   return (
     <Section id="experience" title="Experience">
-      <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
-        <div className="flex-grow-1">
-          <h3 className="mb-0">Senior Web Developer</h3>
-          <div className="subheading mb-3">Intelitec Solutions</div>
-          <p>
-            Bring to the table win-win survival strategies to ensure proactive
-            domination. At the end of the day, going forward, a new normal that
-            has evolved from generation X is on the runway heading towards a
-            streamlined cloud solution. User generated content in real-time will
-            have multiple touchpoints for offshoring.
-          </p>
-        </div>
-        <div className="flex-shrink-0">
-          <span className="text-primary">March 2013 - Present</span>
-        </div>
-      </div>
-      <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
-        <div className="flex-grow-1">
-          <h3 className="mb-0">Web Developer</h3>
-          <div className="subheading mb-3">Intelitec Solutions</div>
-          <p>
-            Capitalize on low hanging fruit to identify a ballpark value added
-            activity to beta test. Override the digital divide with additional
-            clickthroughs from DevOps. Nanotechnology immersion along the
-            information highway will close the loop on focusing solely on the
-            bottom line.
-          </p>
-        </div>
-        <div className="flex-shrink-0">
-          <span className="text-primary">December 2011 - March 2013</span>
-        </div>
-      </div>
-      <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
-        <div className="flex-grow-1">
-          <h3 className="mb-0">Junior Web Designer</h3>
-          <div className="subheading mb-3">Shout! Media Productions</div>
-          <p>
-            Podcasting operational change management inside of workflows to
-            establish a framework. Taking seamless key performance indicators
-            offline to maximise the long tail. Keeping your eye on the ball
-            while performing a deep dive on the start-up mentality to derive
-            convergence on cross-platform integration.
-          </p>
-        </div>
-        <div className="flex-shrink-0">
-          <span className="text-primary">July 2010 - December 2011</span>
-        </div>
-      </div>
-      <div className="d-flex flex-column flex-md-row justify-content-between">
-        <div className="flex-grow-1">
-          <h3 className="mb-0">Web Design Intern</h3>
-          <div className="subheading mb-3">Shout! Media Productions</div>
-          <p>
-            Collaboratively administrate empowered markets via plug-and-play
-            networks. Dynamically procrastinate B2C users after installed base
-            benefits. Dramatically visualize customer directed convergence
-            without revolutionary ROI.
-          </p>
-        </div>
-        <div className="flex-shrink-0">
-          <span className="text-primary">September 2008 - June 2010</span>
-        </div>
-      </div>
+      <p className="section-intro">From business dashboards to real-time communications. Building products, improving systems and helping teams grow.</p>
+      <ol className="career-timeline">
+        {experience.map((job) => (
+          <li key={job.id} className={'career-entry ' + (job.end ? '' : 'career-entry-current')}>
+            <div className="career-period">
+              {!job.end && <span className="current-badge">Current role</span>}
+              <span><time dateTime={job.start}>{formatMonth(job.start)}</time> &mdash; {job.end ? <time dateTime={job.end}>{formatMonth(job.end)}</time> : 'Present'}</span>
+              <span className="career-location">{job.location}</span>
+            </div>
+            <article className="career-card" aria-labelledby={job.id + '-title'}>
+              <p className="eyebrow">{job.focus}</p>
+              <h3 id={job.id + '-title'}>{job.company}</h3>
+              <p className="career-role">{job.role}</p>
+              <ul className="achievement-list">{job.highlights.map((item) => <li key={item}>{item}</li>)}</ul>
+              <ul className="tech-tags" aria-label="Technologies">{job.technologies.map((tech) => <li key={tech}>{tech}</li>)}</ul>
+              {job.details && <details className="career-details">
+                <summary>{job.detailsLabel}</summary>
+                <ul className="achievement-list">{job.details.map((item) => <li key={item}>{item}</li>)}</ul>
+              </details>}
+            </article>
+          </li>
+        ))}
+      </ol>
     </Section>
   );
 }

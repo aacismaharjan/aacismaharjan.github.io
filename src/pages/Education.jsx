@@ -1,29 +1,22 @@
-import React from "react";
-import Section from "../components/Section";
+import React from 'react';
+import Section from '../components/Section';
+import education from '../constant/education';
 
 export default function Education() {
   return (
     <Section id="education" title="Education">
-      <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
-        <div className="flex-grow-1">
-          <h3 className="mb-0">Gyanodaya College</h3>
-          <div className="subheading mb-3">Management</div>
-          <div>Computer Science - Web Development Track</div>
-          <p>GPA: 3.23</p>
-        </div>
-        <div className="flex-shrink-0">
-          <span className="text-primary">August 2006 - May 2010</span>
-        </div>
-      </div>
-      <div className="d-flex flex-column flex-md-row justify-content-between">
-        <div className="flex-grow-1">
-          <h3 className="mb-0">Gyanodaya Secondary School</h3>
-          <div className="subheading mb-3">Primary Education</div>
-          <p>GPA: 3.65</p>
-        </div>
-        <div className="flex-shrink-0">
-          <span className="text-primary">2007 -  2018</span>
-        </div>
+      <p className="section-intro">A foundation in technology, with a perspective on how businesses work.</p>
+      <div className="education-grid">
+        {education.map((item) => <article className="education-card" key={item.id}>
+          <div className="education-topline">
+            <span className="eyebrow">{item.university || 'Higher secondary'}</span>
+            {item.start && <span className="education-dates"><time dateTime={item.start}>{item.start}</time> &mdash; <time dateTime={item.end}>{item.end}</time></span>}
+          </div>
+          <h3>{item.institution}</h3>
+          <p className="career-role">{item.qualification}</p>
+          <p>{item.specialization}</p>
+          <p className="education-grade"><strong>{item.grade}</strong><span>CGPA</span></p>
+        </article>)}
       </div>
     </Section>
   );

@@ -1,80 +1,19 @@
-import React from "react";
-import Section from "../components/Section";
-import Skill from "../components/Skill";
+import React from 'react';
+import Section from '../components/Section';
 
-const Skills = () => {
-  const data = {
-    skills: [
-      { title: "HTML" },
-      { title: "CSS" },
-      { title: "Javascript" },
-      { title: "Nodejs" },
-      { title: "C Programming" },
-      { title: "OOP Java" },
-      { title: "MongoDB" },
-    ],
-    frameworks: [
-      { title: "React.js" },
-      { title: "Next.js" },
-      { title: "Express.js" },
-      { title: "Bootstrap" },
-      { title: "Material-UI" },
-      { title: "Photoshop / Figma" },
-    ],
-  };
+const groups = [
+  ['01', 'Frontend & architecture', 'Interfaces that scale with the product.', ['React', 'TypeScript', 'JavaScript', 'Next.js', 'Redux', 'Zustand', 'TanStack Query', 'GraphQL', 'HTML / CSS / SCSS', 'Material UI']],
+  ['02', 'Quality & collaboration', 'Confidence in every release.', ['Playwright', 'Vitest', 'Jest', 'Git / GitHub', 'Jira', 'Code reviews', 'Technical documentation', 'Claude Code']],
+  ['03', 'Integrations & platforms', 'Connecting the pieces of a product.', ['Twilio', 'Stripe', 'Chargebee', 'OAuth / MFA', '3D Secure', 'Apple Pay / Google Pay', 'Chrome Extensions', 'PWA / Service Workers']],
+  ['04', 'Backend & deployment', 'A full-stack perspective.', ['Java', 'Spring Boot', 'Node.js', 'Express', 'REST APIs', 'MySQL', 'MongoDB', 'Docker', 'AWS basics', 'Postman']],
+];
 
-  const { skills, frameworks } = data;
-
-  const skillsJsx = skills.map((skill, index) => {
-    return (
-      <div className="col-md-8 py-1" key={index}>
-        <Skill skill={skill} />
-      </div>
-    );
-  });
-
-  const frameworksJsx = frameworks.map((skill, index) => {
-    return (
-      <div className="col-md-8 py-1" key={index}>
-        <Skill skill={skill} secondary />
-      </div>
-    );
-  });
-
-  return (
-    <div id="skills">
-      <Section title="Skills">
-        <div className="subheading mb-3">Coding Languages</div>
-        <div className="row mb-4">{skillsJsx}</div>
-        <div className="subheading mb-3">Frameworks / Libraries</div>
-        <div className="row mb-4">{frameworksJsx}</div>
-      </Section>
-
-      <Section id="services" title="Services for you">
-        <div className="subheading mb-3">Simple Website</div>
-        <p>
-          I develop a beautiful website like landing website, personal website,
-          showcase website and other stunning websites using HTML, CSS and
-          Javascript.
-        </p>
-
-        <div className="subheading mb-3">Interactive Website</div>
-        <p>
-          I design user friendly interactive website like dashboards for
-          mananging business, booking websites, and other stunning websites
-          using Javascript, React.js and Next.js.
-        </p>
-
-        <div className="subheading mb-3">Complete Web Development</div>
-        <p>
-          I develop and engineer a complete functioning website from design to
-          development and hosting live on the internet like Ecommerce websites,
-          Hotel management, travelling websites, etc and other cool websites
-          using MERN Stack.
-        </p>
-      </Section>
-    </div>
-  );
-};
-
-export default Skills;
+export default function Skills() {
+  return <Section id="skills" title="Skills & toolkit">
+    <p className="section-intro">The tools I use to turn complex requirements into dependable, usable products.</p>
+    <div className="skills-grid">{groups.map(([number, title, description, skills]) => <article className="skill-group" key={number}>
+      <span className="eyebrow">{number} / Toolkit</span><h3>{title}</h3><p>{description}</p>
+      <ul className="tech-tags" aria-label={title}>{skills.map((skill) => <li key={skill}>{skill}</li>)}</ul>
+    </article>)}</div>
+  </Section>;
+}

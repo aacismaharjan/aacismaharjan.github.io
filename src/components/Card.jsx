@@ -1,64 +1,24 @@
-import React, { useState } from "react";
-import { Button, Card } from "react-bootstrap";
-import { motion, AnimatePresence } from "framer-motion";
-import loadingGif from "../assets/aacismaharjan-loading-logo.svg";
-import styled from "styled-components";
+import React from 'react';
+import { Button, Card } from 'react-bootstrap';
 
-const StyledCard = styled(Card)`
-  iframe {
-    display: none;
-  }
-  &:hover iframe {
-    display: block;
-  }
-`;
-
-export default function PortfolioCard({
-  card: { img, title, desc, demo, source },
-}) {
-  const [isLoading, setIsLoading] = useState(true);
-
-  const thumbnail = {
-    backgroundImage: `url(${img})`,
-  };
-
-  const LoadingAnimation = () => {
-    return (
-      <AnimatePresence>
-        {isLoading && (
-          <motion.div className="overlay">
-            <img
-              src={img}
-              onLoad={() => setTimeout(() => setIsLoading(false), 1000)}
-              onError={() => setIsLoading(false)}
-              style={{ display: "none" }}
-              alt={title}
-            />
-            <img src={loadingGif} alt="Loading card..." />
-          </motion.div>
-        )}
-      </AnimatePresence>
-    );
-  };
-
+export default function PortfolioCard({ card: { img, title, desc, demo, source, label, technologies, accent } }) {
   return (
-    <StyledCard data-aos="flip-left">
-      <div className="card-thumbnail" style={thumbnail}>
-        <LoadingAnimation />
-      </div>
-
+    <Card className={accent ? 'project-featured' : ''}>
+      {img ? <img className="project-image" src={img} alt={title + ' preview'} loading="lazy" /> :
+        <div className={'project-cover project-cover-' + accent}>
+          <span className="eyebrow">{label}</span><span className="project-wordmark">{title}</span>
+          <span className="project-cover-caption">{accent === 'sewa' ? 'Everyday services. One platform.' : 'Multiple vendors. One seamless order.'}</span>
+        </div>}
       <Card.Body>
-        <Card.Title className="title">{title}</Card.Title>
+        {label && <p className="eyebrow">{label}</p>}
+        <Card.Title as="h3" className="title">{title}</Card.Title>
         <Card.Text>{desc}</Card.Text>
-        <div className="btn-grp">
-          <Button href={demo} target="_blank">
-            Live Demo
-          </Button>
-          <Button href={source} target="_blank" variant="secondary" disabled={!source}>
-            Source Code
-          </Button>
-        </div>
+        {technologies && <ul className="tech-tags" aria-label="Project technologies">{technologies.map((tech) => <li key={tech}>{tech}</li>)}</ul>}
+        {(demo || source) && <div className="btn-grp">
+          {demo && <Button href={demo} target="_blank" rel="noopener noreferrer">Live Demo</Button>}
+          {source && <Button href={source} target="_blank" rel="noopener noreferrer" variant="secondary">Source Code</Button>}
+        </div>}
       </Card.Body>
-    </StyledCard>
+    </Card>
   );
 }

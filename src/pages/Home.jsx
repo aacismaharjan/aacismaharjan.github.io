@@ -1,85 +1,41 @@
-import React, { useEffect, useState } from "react"
-import Section from "../components/Section"
-import ResumePDF from "../assets/resume.pdf"
-import { FaGithub, FaLinkedinIn, FaTwitter , FaBlogger} from "react-icons/fa"
-import {SiFiverr} from "react-icons/si";
-import SocialLink from "../utils/SocialLink"
-import social from "./../constant/social.json"
+import React from 'react';
+import Section from '../components/Section';
+import ResumePDF from '../assets/resume.pdf';
+import { FaGithub, FaLinkedinIn, FaTwitter, FaBlogger } from 'react-icons/fa';
+import { SiFiverr } from 'react-icons/si';
+import social from '../constant/social.json';
+import ChessKnightPanel from '../components/ChessKnightPanel';
 
-const SocialIcon = ({ href, icon }) => {
-  return (
-    <a
-      className="social-icon"
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {icon}
-    </a>
-  )
-}
-
-
-/* Gets object of SocialLink */
-const getSocialLinks = () => {
-  const icons = [];
-  icons.push(new SocialLink(<FaLinkedinIn/>, social.linkedin));
-  icons.push(new SocialLink(<FaGithub/>, social.github));
-  icons.push(new SocialLink(<FaBlogger/>, social.blogger));
-  icons.push(new SocialLink(<FaTwitter/>, social.twitter));
-  // icons.push(new SocialLink(<FaYoutube/>, social.youtube));
-  // icons.push(new SocialLink(<FaInstagram/>, social.instagram));
-  // icons.push(new SocialLink(<FaYoutube/>, social.youtubeDev));
-  icons.push(new SocialLink(<SiFiverr/>, social.fiverr));
-
-  return icons;
-}
+const links = [
+  ['LinkedIn', social.linkedin, FaLinkedinIn], ['GitHub', social.github, FaGithub],
+  ['Blog', social.blogger, FaBlogger], ['Twitter', social.twitter, FaTwitter],
+  ['Fiverr', social.fiverr, SiFiverr],
+];
 
 export default function Home() {
-  const [socialLinks, setSocialLinks] = useState([]);  
-
-  useEffect(()=> {
-    setSocialLinks(getSocialLinks());
-  }, [])
-
   return (
     <Section id="about">
-      <h1 className="mb-0">
-        Aashish
-        <span className="text-primary">Maharjan</span>
-      </h1>
-      <div className="subheading mb-3">
-        Purano Kalimati, Kathmandu, Nepal ·
-        <a href="mailto:aashishmaharjan2001@gmail.com">
-          aashishmaharjan2001@gmail.com
-        </a>
+      <div className="hero-story-grid">
+        <div className="hero-story">
+          <p className="eyebrow hero-kicker">Engineer. Builder. Team lead.</p>
+          <h1 className="hero-name">Aashish <span className="text-primary">Maharjan</span></h1>
+          <p className="hero-role">Senior Frontend Engineer <span>/</span> Frontend Team Lead</p>
+          <p className="hero-location">Kathmandu, Nepal <span aria-hidden="true">&middot;</span> <a href="mailto:aashishmaharjan2001@gmail.com">aashishmaharjan2001@gmail.com</a></p>
+          <p className="lead hero-description">I build thoughtful interfaces and the systems behind them. At Varosa, I lead frontend engineering initiatives for Calilio, working across React, TypeScript, authentication, payments and automated testing.</p>
+          <p className="hero-description">A BCIS graduate from Apex College, I bring hands-on Java and Spring Boot experience alongside a focus on maintainable frontend architecture and helping developers grow.</p>
+          <div className="hero-actions">
+            <a className="btn btn-primary py-3 px-4" href="#experience">Explore my experience <span aria-hidden="true">&#8599;</span></a>
+            <a className="btn resume-link py-3 px-4" href={ResumePDF} download="Aashish_Maharjan_Resume.pdf">Download CV <span aria-hidden="true">&darr;</span></a>
+          </div>
+        </div>
+        <ChessKnightPanel />
       </div>
-      <p className="lead mb-4">
-        {/* Aashish Maharjan connects online brands to their target audiences for
-        the perfect communicating experience. At the Gyanodaya School, Aashish
-        learned the importance of applying classic web designing ideas to modern
-        brands strategies from experts in the field, including his Computer
-        Teacher, Mr. Mannor Shakya. */}
-        Innovative, passionate and hard working certified Web Developer started <strong>Web Design and Web Development from 2018 AD</strong>.
-        Gained a lot experience in web development, specialized in frontend
-        technologies. I have involved in creating various SAAS projects. Currently, I'm pursuing my BCIS (<strong>Bachelor of Computer Information System</strong>) degree, as well as part-time freelancing.
-      </p>
-
-      <div className="btn-group mb-5">
-        <button
-          className="btn btn-primary btn-custom py-2 px-5"
-          type="submit"
-          onClick={() => window.open(ResumePDF)}
-        >
-          Download CV
-        </button>
-      </div>
-
-      <div className="social-icons">
-        {socialLinks.map(({ link, icon }, index) => (
-          <SocialIcon href={link} icon={icon} key={index} />
-        ))}
-      </div>
+      <dl className="hero-stats">
+        <div><dt>11</dt><dd>Junior developers mentored</dd></div>
+        <div><dt>31.25%</dt><dd>Reduction in frontend build time</dd></div>
+        <div><dt>React + TypeScript</dt><dd>My everyday toolkit</dd></div>
+      </dl>
+      <div className="social-icons">{links.map(([name, href, Icon]) => <a key={name} className="social-icon" href={href} aria-label={name} target="_blank" rel="noopener noreferrer"><Icon /></a>)}</div>
     </Section>
-  )
+  );
 }

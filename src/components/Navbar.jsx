@@ -44,6 +44,14 @@ export default function Navigation() {
       href: "#about",
     },
     {
+      name: "Experience",
+      href: "#experience",
+    },
+    {
+      name: "Education",
+      href: "#education",
+    },
+    {
       name: "Skills",
       href: "#skills",
     },
@@ -83,7 +91,7 @@ export default function Navigation() {
       id="sideNav"
     >
       <Navbar.Brand>
-        <span className="d-none d-lg-none">Aashish Mahajran</span>
+        <span className="d-none d-lg-none">Aashish Maharjan</span>
         <span className="d-block d-lg-block nav-img">
           <motion.img
             className="img-fluid img-profile rounded-circle mx-auto mb-2"

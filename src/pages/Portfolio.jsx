@@ -13,19 +13,21 @@ const Portfolio = () => {
   }, [count])
 
   return (
-    <Section id="portfolio" title="Major Open Source Projects">
+    <Section id="portfolio" title="Selected projects">
+      <p className="section-intro">Full-stack products, independent experiments and the projects that put learning into practice.</p>
       <div className="cards">
         {items && items.map((card, index) => <Card card={card} key={index} />)}
       </div>
 
       <div className="d-flex justify-content-center">
         {count < portfolios.length && (
-          <div
+          <button
+            type="button"
             className="btn btn-primary mt-5 btn-lg"
             onClick={() => setCount(count + 3)}
           >
             See more
-          </div>
+          </button>
         )}
       </div>
     </Section>

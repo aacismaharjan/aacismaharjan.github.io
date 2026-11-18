@@ -1,18 +1,15 @@
-import React, { lazy, Suspense, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import AOS from 'aos';
 import { Helmet } from 'react-helmet';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Skills from './pages/Skills';
 import Portfolio from './pages/Portfolio';
-import { Route, Switch } from 'react-router-dom';
-import Codepen from './pages/Codepen';
+import { Redirect, Route, Switch } from 'react-router-dom';
 import Contact from './pages/Contact';
 import 'aos/dist/aos.css';
-import Blogs from './pages/Blogs';
 import Experience from './pages/Experience';
 import Education from './pages/Education';
-const CharacterPreview = lazy(() => import('./pages/CharacterPreview'));
 
 /**
  * App component that renders the main application content
@@ -24,9 +21,7 @@ function App() {
 
   return (
     <Switch>
-      <Route exact path="/character-preview">
-        <Suspense fallback={<p role="status">Loading character preview…</p>}><CharacterPreview /></Suspense>
-      </Route>
+      <Redirect exact from="/character-preview" to="/" />
       <Route exact path="/">
         <Helmet>
           <meta
@@ -43,8 +38,6 @@ function App() {
           <Education />
           <Skills />
           <Portfolio />
-          <Codepen />
-          <Blogs />
           <Contact />
         </div>
       </Route>

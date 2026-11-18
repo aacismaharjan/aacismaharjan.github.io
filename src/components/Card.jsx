@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import { FiArrowUpRight, FiGithub } from 'react-icons/fi';
 
 export default function PortfolioCard({ card: { img, title, desc, demo, source, label, technologies, accent } }) {
   return (
@@ -15,8 +16,8 @@ export default function PortfolioCard({ card: { img, title, desc, demo, source, 
         <Card.Text>{desc}</Card.Text>
         {technologies && <ul className="tech-tags" aria-label="Project technologies">{technologies.map((tech) => <li key={tech}>{tech}</li>)}</ul>}
         {(demo || source) && <div className="btn-grp">
-          {demo && <Button href={demo} target="_blank" rel="noopener noreferrer">Live Demo</Button>}
-          {source && <Button href={source} target="_blank" rel="noopener noreferrer" variant="secondary">Source Code</Button>}
+          {demo && <Button href={demo} target="_blank" rel="noopener noreferrer">Live Demo <FiArrowUpRight aria-hidden="true" /></Button>}
+          {source && <Button href={source} target="_blank" rel="noopener noreferrer" variant="secondary"><FiGithub aria-hidden="true" /> Source Code</Button>}
         </div>}
       </Card.Body>
     </Card>

@@ -60,14 +60,6 @@ export default function Navigation() {
       href: "#portfolio",
     },
     {
-      name: "Codepen",
-      href: "#codepen",
-    },
-    {
-      name: "Blogs",
-      href: "#blogs",
-    },
-    {
       name: "Contact",
       href: "#contact",
     },
@@ -96,6 +88,8 @@ export default function Navigation() {
           <motion.img
             className="img-fluid img-profile rounded-circle mx-auto mb-2"
             src={Avatar}
+            width="320"
+            height="320"
             alt="Aashish Maharjan"
             drag
             dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}

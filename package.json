@@ -33,6 +33,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "verify:disabled-3d": "node scripts/verify-disabled-3d-build.cjs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

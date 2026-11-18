@@ -21,29 +21,32 @@
         if (isEnable) {
           document.body.classList.add("theme-dark");
           if (themeImage) themeImage.src = "./pic_bulboff.gif";
-          localStorage.setItem("theme", "dark");
         } else {
           document.body.classList.remove("theme-dark");
           if (themeImage) themeImage.src = "./pic_bulbon.gif";
-          localStorage.setItem("theme", "light");
+        }
+        try {
+          localStorage.setItem("theme", isEnable ? "dark" : "light");
+        } catch (_) {
+          // Theme switching still works when browser storage is unavailable.
         }
       }
 
-      window.onload = () => {
-        let theme = localStorage.getItem("theme");
-        let time = new Date().getHours();
-
-        if (theme === "light") {
-          computeDarkTheme(false);
-        } else if ((theme == null && time >= 18) || time <= 5) {
-          computeDarkTheme(true);
-        } else {
-          computeDarkTheme(true);
+      function restoreTheme() {
+        let theme = "dark";
+        try {
+          theme = localStorage.getItem("theme") || "dark";
+        } catch (_) {
+          // Use the default theme when browser storage is unavailable.
         }
-      };
+        computeDarkTheme(theme !== "light");
+      }
+
+      window.onload = restoreTheme;
     </script>
   </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <body class="theme-dark" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <script>restoreTheme();</script>
     <div id="root"></div>
   </body>
 </html>

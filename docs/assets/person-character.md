@@ -1,6 +1,8 @@
 # Person character
 
-## Active preview asset
+Current status (2026-11-14): the preview is disabled. All paths below beginning with `public/` describe former runtime locations; their files now live under `archive/3d/public/`. The original generator writes to `archive/3d/public/models/person-character.glb`. See [the pause/restoration plan](../plans/2026-11-14-hide-3d-features.md). The supplied model's bytes and provenance are unchanged.
+
+## Supplied preview asset (archived)
 
 The active `/character-preview` model is supplied by Aashish from `C:\Users\aashi\Downloads\model.glb`, copied unchanged to `public/models/character.glb`. Its SHA-256 is `BE64F2521B266150ADAF3DA2B3AC5B8F31FB5B0A375279BF148C8BBBBC75A8F8`. The original download remains untouched.
 

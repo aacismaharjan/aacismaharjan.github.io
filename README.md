@@ -16,6 +16,16 @@ docker run -p 3000:80 react-nginx-app
 ```
 
 
+## Paused 3D features
+
+The homepage previously included an interactive copper chess knight (the 3D horse), and `/character-preview` displayed a supplied character model. Both are temporarily disabled; the old preview URL now redirects home.
+
+Viewer source remains in `src/components/ChessKnight*`, `src/components/chess/`, `src/components/character/` and `src/pages/CharacterPreview.jsx`. Models, fallback images and feature styles are preserved in [`archive/3d/`](archive/3d/), outside the production build. Three.js remains installed for the original model generator and retained component tests, but is excluded from browser bundles.
+
+See the [technical plan and restoration steps](docs/plans/2026-11-14-hide-3d-features.md), [knight implementation](docs/plans/2026-11-14-interactive-chess-knight.md), and [character implementation](docs/plans/2026-11-14-replace-character-preview-model.md). Provenance remains in [`docs/assets/`](docs/assets/). The original character generator now writes to the archive, preserving the zero-paid-generation constraint.
+
+After `npm run build`, run `npm run verify:disabled-3d` to confirm that every emitted JavaScript chunk excludes these features and Three.js, and the build contains no models, feature fallback images or dedicated styles. This verification requires the default production source maps.
+
 ## Available Scripts
 
 In the project directory, you can run:

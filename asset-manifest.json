@@ -1,13 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.4b18bbd0.css",
-    "main.js": "/static/js/main.0b6264b8.js",
-    "static/media/getwatch-min.png": "/static/media/getwatch-min.9d3ee3e41d5ceae0efbf.png",
+    "main.js": "/static/js/main.c18a85ad.js",
+    "static/media/resume.pdf": "/static/media/resume.58cbacda179cd42aeb79.pdf",
     "static/media/landing_page_template-min.png": "/static/media/landing_page_template-min.b00b014337246dcfac06.png",
-    "static/media/resume.pdf": "/static/media/resume.1d09dd57682d934c2c46.pdf",
     "static/media/app-landingpage-min.png": "/static/media/app-landingpage-min.7a494efa1726658687b8.png",
     "static/media/simple_portfolio-min.png": "/static/media/simple_portfolio-min.02f8f06a8b3a4499324e.png",
-    "static/media/youtube-clone-min.png": "/static/media/youtube-clone-min.ee5e801f31de8b637666.png",
     "static/media/netflix-clone-min.png": "/static/media/netflix-clone-min.02381e207023640ca4dd.png",
     "static/media/basic-netflix-min.png": "/static/media/basic-netflix-min.14da85f6f85a71492c93.png",
     "static/media/epasale.png": "/static/media/epasale.1f86b33771f44c613582.png",
@@ -17,22 +15,18 @@
     "static/media/instagram-clone-min.png": "/static/media/instagram-clone-min.0517556d8ba39e68fd75.png",
     "static/media/natours.png": "/static/media/natours.34da758dd2198d041c5e.png",
     "static/media/github_user_stats-min.png": "/static/media/github_user_stats-min.fdad04e19eddf9da3805.png",
-    "static/media/quizbee-min.png": "/static/media/quizbee-min.9d118153f97454909bf4.png",
-    "static/media/react-redux-rest-min.png": "/static/media/react-redux-rest-min.a065ab88ef1f48b9ad42.png",
-    "static/media/mern-twitter-clone-min.png": "/static/media/mern-twitter-clone-min.acd42dee33f34304923f.png",
-    "static/media/aacismaharjan-loading-logo.svg": "/static/media/aacismaharjan-loading-logo.7bf3f0536bcd1adc1e798a9212fe0aca.svg",
     "static/media/coronatracker-min.png": "/static/media/coronatracker-min.fd4ede3e4ead7e713ead.png",
-    "static/media/avatar.jpg": "/static/media/avatar.0b1e745067e707f76e37.jpg",
+    "static/media/avatar.jpg": "/static/media/avatar.c8148b7f230dea33e891.jpg",
     "static/media/coolors-min.png": "/static/media/coolors-min.0607433ba5fa9ad0dced.png",
     "static/media/rms-min.png": "/static/media/rms-min.4e210778c60a229606f8.png",
     "static/media/typing-test-min.png": "/static/media/typing-test-min.8c042b464bbf582742f6.png",
     "static/media/hangman.png": "/static/media/hangman.9855a18c64660d8d03ec.png",
     "index.html": "/index.html",
     "main.4b18bbd0.css.map": "/static/css/main.4b18bbd0.css.map",
-    "main.0b6264b8.js.map": "/static/js/main.0b6264b8.js.map"
+    "main.c18a85ad.js.map": "/static/js/main.c18a85ad.js.map"
   },
   "entrypoints": [
     "static/css/main.4b18bbd0.css",
-    "static/js/main.0b6264b8.js"
+    "static/js/main.c18a85ad.js"
   ]
 }
